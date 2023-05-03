@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Summarization</title>
+</head>
+<body>
+    <h1>Video Summarization</h1>
+    <form method="post" action="/summarize" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <br>
+        <label for="length">Length of summary (in seconds):</label>
+        <input type="number" name="length" id="length">
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+</body>
+</html>

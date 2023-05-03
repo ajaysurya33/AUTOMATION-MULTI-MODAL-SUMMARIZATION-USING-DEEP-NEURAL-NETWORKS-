@@ -1,0 +1,209 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color:#1f4aa8;
+    text-decoration: none;
+}
+a:hover{
+    color: #1f4aa8;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #1f4aa8;
+    color: rgb(6, 6, 6);
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #5a5c5f;
+}
+h2{
+    color: #340991;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 1rem;
+}
+p{
+    font-family: 2.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: .1px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/*CSS for SEarch Section */
+
+.search{
+    background-image: url(../images/bg1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+ .search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+*/
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Menu */
+.menu{
+    background-color:rgb(253, 253, 253);
+    padding: 4% 0;
+}
+.box-3-float-container{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(34, 144, 69);
+    border-radius: 15px;
+}
+
+.menu-img{
+    width: 20%;
+    float: left;
+}
+
+.menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+summary-menu{
+    background-color: #7f4343;
+    padding: 4% 0;
+}
+.summary-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(194, 186, 186);
+    border-radius: 15px;
+}
+
+.summary-menu-img{
+    width: 20%;
+    float: left;
+}
+.summary-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.summary-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.summary-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+.footer{
+    background-color:  #1f4aa8;
+    color: white;
+}
+
+/*textsummerisation page style*/
